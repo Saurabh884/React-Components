@@ -1,0 +1,40 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px;
+  }
+  
+  table th {
+    padding: 8px;
+    border:1px solid #ccc;
+    background-color: brown;
+    color: white;
+  }
+  table td{
+    padding: 8px;
+    border:1px solid #ccc;
+     background-color: #ddd;
+     font-size: 16px;
+  
+  }
+  button{
+    margin: 8px;
+    padding: 8px;
+    border: #ccc;
+    border-radius: 4px;
+    background-color: teal;
+    color: white;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  
+  input{
+    padding: 8px ;
+    margin-right: 8px;
+  }

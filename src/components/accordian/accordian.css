@@ -1,0 +1,11 @@
+.accordian{
+    width: 100%;
+}
+.accordian-title{
+    width: 50%;
+    margin: auto;
+    background-color: #726a6a;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}

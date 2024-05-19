@@ -1,15 +1,10 @@
-
-import './App.css';
-import PaginationApp from './components/pagination';
-
-
-
-
+import "./App.css";
+import FormComponent from "./components/formcomponent";
 
 function App() {
   return (
     <div className="App">
-    <PaginationApp/>
+      <FormComponent />
     </div>
   );
 }

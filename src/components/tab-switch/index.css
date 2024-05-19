@@ -1,0 +1,30 @@
+.tabs-container{
+    width: 300px;
+
+    margin: auto;
+    align-items: center;
+}
+
+.tabs{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.tabs-content{
+    display: flex;
+    align-items: center;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+.tabs button.active {
+    background-color: green;
+    color: white;
+}

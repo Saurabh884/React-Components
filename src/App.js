@@ -1,13 +1,14 @@
 
 import './App.css';
-import Todo from './components/todo';
+import TabSwitchApp from './components/tab-switch';
+
 
 
 
 function App() {
   return (
     <div className="App">
-   <Todo/>
+     <TabSwitchApp/>
     </div>
   );
 }

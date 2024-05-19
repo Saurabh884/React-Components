@@ -1,6 +1,7 @@
 
 import './App.css';
-import TabSwitchApp from './components/tab-switch';
+import PaginationApp from './components/pagination';
+
 
 
 
@@ -8,7 +9,7 @@ import TabSwitchApp from './components/tab-switch';
 function App() {
   return (
     <div className="App">
-     <TabSwitchApp/>
+    <PaginationApp/>
     </div>
   );
 }

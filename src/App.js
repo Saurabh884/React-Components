@@ -1,11 +1,11 @@
 import "./App.css";
-import FormAllField from "./components/formAllFields";
+import ReactHookForm from "./components/reacthookform";
 
 
 function App() {
   return (
     <div className="App">
-     <FormAllField/>
+     <ReactHookForm/>
     </div>
   );
 }
